@@ -1,0 +1,6 @@
+instrumentation:
+    include-all-sources: true
+    excludes: ['bin/**', 'node_modules/**', 'public/**', 'views/**']
+reporting:
+    - lcov
+    - html
