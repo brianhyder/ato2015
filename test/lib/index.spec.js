@@ -32,7 +32,7 @@ describe('UserService', function() {
                     user.should.be.type('object');
                     user.email.should.be.type('string');
                     user.name.should.be.type('string');
-                    user.id.should.be.type('string');
+                    user.id.should.be.type('number');
                 });
                 done();
             });
